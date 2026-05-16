@@ -1,6 +1,6 @@
 [build-system]
 requires = ["setuptools>=68.0", "wheel"]
-build-backend = "setuptools.backends._legacy:_Backend"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "applied-nlp-finance"
@@ -45,9 +45,15 @@ notebooks = [
     "jupyter>=1.0",
     "ipykernel>=6.29",
 ]
+tools = [
+    "bibtexparser>=1.4,<2.0",
+    "httpx>=0.27",
+    "rapidfuzz>=3.6",
+    "openpyxl>=3.1",
+]
 
 [tool.setuptools.packages.find]
-include = ["src*"]
+include = ["src*", "tools*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

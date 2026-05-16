@@ -114,8 +114,42 @@ The project is scaffolded with a full directory structure, module stubs, and tes
 - `manuscript/` chapters have placeholder section headers — write full prose
 - `references.bib` needs deep research passes per chapter
 
+## Bibliography Conventions
+
+- **Citation style:** Chicago 17 (Notes and Bibliography), rendered via `biblatex-chicago`.
+- **Source of truth:** Each chapter's `manuscript/NN_*/research.md` is the canonical annotated bibliography. `manuscript/99_bibliography/references.bib` is **generated** from these files — do not hand-edit individual entries.
+- **Citation keys:** `lastname_year[_keyword]` lowercase. See [`manuscript/99_bibliography/CITATIONS.md`](manuscript/99_bibliography/CITATIONS.md) for the full convention and disambiguation algorithm.
+- **Cross-chapter sources:** entries cited in multiple chapters have a single canonical BibTeX entry with `keywords = {ch01,ch05,...}` listing all citing chapters. Per-chapter scan view lives in the generated [`manuscript/references_master_index.md`](manuscript/references_master_index.md).
+- **Two FinBERTs:** Araci 2019 and Huang et al. 2023 are distinct models; they have distinct keys (`araci_2019_finbert`, `huang_etal_2023_finbert`). Never collapse on title alone.
+- **Verification status:** Each `research.md` entry has a `Status:` line. After SMU Library verification, flip `[ ] Unverified` → `[x] Verified via SMU Library YYYY-MM-DD` and append a `Verification notes:` block with 2-3 page-anchored findings.
+
+### Tooling (under `tools/`)
+
+```bash
+source .venv/bin/activate
+
+# Regenerate references.bib from research.md files
+uv run python -m tools.research_to_bibtex --write
+
+# Cross-check DOIs against CrossRef (produces tools/verification_report.txt)
+uv run python -m tools.verify_doi --all
+
+# Regenerate the per-chapter cross-reference index
+uv run python -m tools.build_master_index
+
+# Re-generate the Tier-1 SMU verification worklist
+uv run python -m tools.tier1_worklist
+
+# Run the citation-key generator unit tests
+pytest tests/test_tools/
+```
+
+Install the tooling deps with `uv pip install -e ".[tools]"`. Conventions are tested in `tests/test_tools/test_citation_keys.py`.
+
 ## Companion Resources
 
 - **Handoff brief:** `.claude/applied-nlp-finance-handoff-brief.md` — detailed chapter briefs, design rationale, and structural decisions log
 - **Data guide:** `data/README.md` — per-chapter data sources, access methods, and licensing
+- **Bibliography conventions:** [`manuscript/99_bibliography/CITATIONS.md`](manuscript/99_bibliography/CITATIONS.md) — citation key format, required fields per entry type, regeneration commands
+- **Tier-1 verification worklist:** [`tools/tier1_worklist.md`](tools/tier1_worklist.md) — generated checklist for SMU Library verification of foundational sources
 - **pgvector service:** `docker-compose.yml` provides PostgreSQL with pgvector (user: `nlpfinance`, db: `financial_docs`, port: 5432)
