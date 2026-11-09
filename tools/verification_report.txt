@@ -1,0 +1,286 @@
+CrossRef DOI Verification Report
+==================================================
+
+Total entries checked: 97
+  mismatch: 25
+  ok: 72
+
+==================================================
+MISMATCHES (review and fix in research.md)
+==================================================
+
+[MISMATCH] apel_grimaldi_2014
+  DOI:           10.1515/roe-2014-0103
+  Note:          title score 39 < 88; author: 'apel' vs 'chang'
+  bib title:     How Informative Are Central Bank Minutes?
+  CrossRef:      Ranking Economics and Econometrics ISI Journals by Quality Weighted Citations
+  Title score:   39
+  bib author:    apel  CrossRef: chang
+
+[MISMATCH] bailey_etal_2017
+  DOI:           10.21314/JCF.2016.322
+  Note:          year: 2017 vs 2016
+  bib title:     The Probability of Backtest Overfitting
+  CrossRef:      The probability of backtest overfitting
+  Title score:   100
+  bib year:      2017  CrossRef: 2016
+
+[MISMATCH] bradley_etal_2024
+  DOI:           10.1093/rfs/hhad098
+  Note:          year: 2024 vs 2023
+  bib title:     Place Your Bets? The Value of Investment Research on Reddit's Wallstreetbets
+  CrossRef:      Place Your Bets? The Value of Investment Research on Reddit’s Wallstreetbets
+  Title score:   99
+  bib year:      2024  CrossRef: 2023
+
+[MISMATCH] brintrup_etal_2024
+  DOI:           10.1080/00207543.2022.2100841
+  Note:          author: 'brintrup' vs 'kosasih'; year: 2024 vs 2022
+  bib title:     Towards Knowledge Graph Reasoning for Supply Chain Risk Management Using Graph Neural Networks
+  CrossRef:      Towards knowledge graph reasoning for supply chain risk management using graph neural networks
+  Title score:   100
+  bib year:      2024  CrossRef: 2022
+  bib author:    brintrup  CrossRef: kosasih
+
+[MISMATCH] brown_tucker_2011
+  DOI:           10.1111/j.1475-679X.2010.00396.x
+  Note:          title score 85 < 88
+  bib title:     Large-Sample Evidence on Firms' Year-over-Year MD&A Modifications
+  CrossRef:      Large‐Sample Evidence on Firms’ Year‐over‐Year MD&amp;A Modifications
+  Title score:   85
+
+[MISMATCH] brunnermeier_pedersen_2009
+  DOI:           10.1093/rfs/hhn098
+  Note:          year: 2009 vs 2008
+  bib title:     Market Liquidity and Funding Liquidity
+  CrossRef:      Market Liquidity and Funding Liquidity
+  Title score:   100
+  bib year:      2009  CrossRef: 2008
+
+[MISMATCH] campbell_etal_2014
+  DOI:           10.1007/s11142-013-9258-3
+  Note:          year: 2014 vs 2013
+  bib title:     The Information Content of Mandatory Risk Factor Disclosures in Corporate Filings
+  CrossRef:      The information content of mandatory risk factor disclosures in corporate filings
+  Title score:   100
+  bib year:      2014  CrossRef: 2013
+
+[MISMATCH] cookson_etal_2023
+  DOI:           10.1093/rfs/hhac058
+  Note:          year: 2023 vs 2022
+  bib title:     Echo Chambers
+  CrossRef:      Echo Chambers
+  Title score:   100
+  bib year:      2023  CrossRef: 2022
+
+[MISMATCH] costola_etal_2022
+  DOI:           10.1038/s41598-022-17925-2
+  Note:          author: 'costola' vs 'mancini'
+  bib title:     Self-Induced Consensus of Reddit Users to Characterise the GameStop Short Squeeze
+  CrossRef:      Self-induced consensus of Reddit users to characterise the GameStop short squeeze
+  Title score:   100
+  bib author:    costola  CrossRef: mancini
+
+[MISMATCH] fama_1970
+  DOI:           10.1111/j.1540-6261.1970.tb00518.x
+  Note:          author: 'fama' vs 'malkiel'
+  bib title:     Efficient Capital Markets: A Review of Theory and Empirical Work
+  CrossRef:      EFFICIENT CAPITAL MARKETS: A REVIEW OF THEORY AND EMPIRICAL WORK*
+  Title score:   100
+  bib author:    fama  CrossRef: malkiel
+
+[MISMATCH] fraccaroli_etal_2018
+  DOI:           10.1016/j.dib.2018.11.130
+  Note:          title score 46 < 88; author: 'fraccaroli' vs 'yadav'; year: 2018 vs 2019
+  bib title:     European Central Bank's Monetary Policy Decisions: A Dataset of Two Decades of Press Conferences
+  CrossRef:      Dataset on assessment of River Yamuna, Delhi, India using indexing approach
+  Title score:   46
+  bib year:      2018  CrossRef: 2019
+  bib author:    fraccaroli  CrossRef: yadav
+
+[MISMATCH] gupta_etal_2024
+  DOI:           10.3390/app14209318
+  Note:          author: 'gupta' vs 'iaroshev'
+  bib title:     Evaluating Retrieval-Augmented Generation Models for Financial Report Question and Answering
+  CrossRef:      Evaluating Retrieval-Augmented Generation Models for Financial Report Question and Answering
+  Title score:   100
+  bib author:    gupta  CrossRef: iaroshev
+
+[MISMATCH] harvey_etal_2016
+  DOI:           10.1093/rfs/hhv059
+  Note:          year: 2016 vs 2015
+  bib title:     … and the Cross-Section of Expected Returns
+  CrossRef:      … and the Cross-Section of Expected Returns
+  Title score:   100
+  bib year:      2016  CrossRef: 2015
+
+[MISMATCH] huang_etal_2014
+  DOI:           10.2308/accr-50865
+  Note:          title score 37 < 88; author: 'huang' vs 'lamoreaux'
+  bib title:     Evidence on the Information Content of Text in Analyst Reports
+  CrossRef:      Do Accounting and Audit Quality Affect World Bank Lending?
+  Title score:   37
+  bib author:    huang  CrossRef: lamoreaux
+
+[MISMATCH] jegadeesh_wu_2013
+  DOI:           10.1016/j.jfineco.2013.08.012
+  Note:          title score 31 < 88; author: 'jegadeesh' vs 'cohen'
+  bib title:     Word Power: A New Approach for Content Analysis
+  CrossRef:      Legislating stock prices
+  Title score:   31
+  bib author:    jegadeesh  CrossRef: cohen
+
+[MISMATCH] li_etal_2025
+  DOI:           10.1016/j.inffus.2024.102755
+  Note:          author: 'li' vs 'du'
+  bib title:     Natural Language Processing in Finance: A Survey
+  CrossRef:      Natural language processing in finance: A survey
+  Title score:   100
+  bib author:    li  CrossRef: du
+
+[MISMATCH] long_etal_2023
+  DOI:           10.1111/fire.12328
+  Note:          year: 2023 vs 2022
+  bib title:     'I Just Like the Stock': The Role of Reddit Sentiment in the GameStop Share Rally
+  CrossRef:      “I just like the stock”: The role of Reddit sentiment in the GameStop share rally
+  Title score:   100
+  bib year:      2023  CrossRef: 2022
+
+[MISMATCH] lu_etal_2019
+  DOI:           10.1109/TKDE.2018.2876857
+  Note:          year: 2019 vs 2018
+  bib title:     Learning under Concept Drift: A Review
+  CrossRef:      Learning under Concept Drift: A Review
+  Title score:   100
+  bib year:      2019  CrossRef: 2018
+
+[MISMATCH] malo_etal_2014
+  DOI:           10.1002/asi.23062
+  Note:          year: 2014 vs 2013
+  bib title:     Good Debt or Bad Debt: Detecting Semantic Orientations in Economic Texts
+  CrossRef:      Good debt or bad debt: Detecting semantic orientations in economic texts
+  Title score:   100
+  bib year:      2014  CrossRef: 2013
+
+[MISMATCH] meursault_etal_2023
+  DOI:           10.1017/S0022109022001181
+  Note:          year: 2023 vs 2022
+  bib title:     PEAD.txt: Post-Earnings-Announcement Drift Using Text
+  CrossRef:      PEAD.txt: Post-Earnings-Announcement Drift Using Text
+  Title score:   100
+  bib year:      2023  CrossRef: 2022
+
+[MISMATCH] shapiro_wilson_2022
+  DOI:           10.1093/restud/rdac004
+  Note:          title score 36 < 88; author: 'shapiro' vs 'argente'
+  bib title:     Taking the Fed at Its Word: A New Approach to Estimating Central Bank Objectives Using Text Analysis
+  CrossRef:      Product Life Cycle, Learning, and Nominal Shocks
+  Title score:   36
+  bib author:    shapiro  CrossRef: argente
+
+[MISMATCH] xing_etal_2018
+  DOI:           10.1007/s10462-017-9588-9
+  Note:          year: 2018 vs 2017
+  bib title:     Natural Language Based Financial Forecasting: A Survey
+  CrossRef:      Natural language based financial forecasting: a survey
+  Title score:   100
+  bib year:      2018  CrossRef: 2017
+
+[MISMATCH] devlin_etal_2019
+  DOI:           10.18653/v1/N19-1423
+  Note:          title score 0 < 88
+  bib title:     BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+  CrossRef:      
+  Title score:   0
+
+[MISMATCH] finreflectkg_2025
+  DOI:           10.1145/3768292.3770363
+  Note:          author: 'finreflectkg' vs 'arun'
+  bib title:     FinReflectKG: Agentic Construction and Evaluation of Financial Knowledge Graphs
+  CrossRef:      FinReflectKG: Agentic Construction and Evaluation of Financial Knowledge Graphs
+  Title score:   100
+  bib author:    finreflectkg  CrossRef: arun
+
+[MISMATCH] longpre_etal_2023
+  DOI:           10.1038/s42256-024-00878-8
+  Note:          year: 2023 vs 2024
+  bib title:     The Data Provenance Initiative: A Large Scale Audit of Dataset Licensing and Attribution in AI
+  CrossRef:      A large-scale audit of dataset licensing and attribution in AI
+  Title score:   100
+  bib year:      2023  CrossRef: 2024
+
+==================================================
+OK (72 entries with matching CrossRef records)
+==================================================
+  ✓ akerlof_1970
+  ✓ ang_bekaert_2002
+  ✓ antweiler_frank_2004
+  ✓ azar_lo_2016
+  ✓ baker_etal_2020
+  ✓ baker_wurgler_2006
+  ✓ baker_wurgler_2007
+  ✓ bao_datta_2014
+  ✓ billio_etal_2012
+  ✓ blinder_etal_2008
+  ✓ bodnaruk_etal_2015
+  ✓ bojanowski_etal_2017
+  ✓ bollen_etal_2011
+  ✓ breck_etal_2017
+  ✓ bushee_etal_2003
+  ✓ calomiris_mamaysky_2019
+  ✓ chen_etal_2014
+  ✓ cookson_etal_2020
+  ✓ cresci_2020
+  ✓ das_chen_2007
+  ✓ deng_etal_2019
+  ✓ divernois_filipovic_2023
+  ✓ fama_1991
+  ✓ garcia_2013
+  ✓ gentzkow_etal_2019
+  ✓ gorodnichenko_etal_2023
+  ✓ gow_etal_2021
+  ✓ guidolin_timmermann_2007
+  ✓ gururangan_etal_2020
+  ✓ hamilton_1989
+  ✓ hansen_mcmahon_2016
+  ✓ hollander_etal_2010
+  ✓ huang_etal_2023_finbert
+  ✓ hubert_labondance_2021
+  ✓ kahneman_tversky_1979
+  ✓ kamps_kleinberg_2018
+  ✓ karanikola_etal_2023
+  ✓ kearney_liu_2014
+  ✓ kolari_pynnonen_2010
+  ✓ kraaijeveld_smedt_2020
+  ✓ larcker_zakolyukina_2012
+  ✓ li_2008
+  ✓ li_etal_2023_large
+  ✓ li_etal_2024
+  ✓ lo_2002
+  ✓ loughran_mcdonald_2011
+  ✓ loughran_mcdonald_2014
+  ✓ loughran_mcdonald_2016
+  ✓ loukas_etal_2021
+  ✓ loukas_etal_2022
+  ✓ loukas_etal_2025
+  ✓ maia_etal_2018
+  ✓ manela_moreira_2017
+  ✓ matsumoto_etal_2011
+  ✓ mclean_pontiff_2016
+  ✓ nakamura_steinsson_2018
+  ✓ nystrup_etal_2015
+  ✓ pedersen_2022
+  ✓ pennington_etal_2014
+  ✓ price_etal_2012
+  ✓ renault_2017
+  ✓ salton_buckley_1988
+  ✓ schmeling_wagner_2024
+  ✓ sennrich_etal_2016
+  ✓ shah_etal_2022
+  ✓ shiller_2017
+  ✓ sinha_etal_2022
+  ✓ stein_2009
+  ✓ tetlock_2007
+  ✓ tetlock_etal_2008
+  ✓ tversky_kahneman_1981
+  ✓ white_2000
